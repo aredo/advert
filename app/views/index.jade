@@ -1,0 +1,53 @@
+extends layouts/default
+
+block main
+  .primary-content
+
+    include includes/header
+
+    .container.m-t-xl.m-b-xl
+      .text-center.wrapper
+        .m-t-xl.m-b-xl
+          .h1.font-bold.inline.text-dark.inline
+            .pull-left.m-r-sm
+              strong.text-primary Gokkon
+              | &nbsp;is place to&nbsp;
+              span.text-primary.lter find
+              | &nbsp;the right &nbsp;
+              span.text-primary.lter buzzer
+              | &nbsp;to share your content on&nbsp;
+              span.text-primary.lter social media
+
+              //- .inline.carousel.slide.carousel-fade.auto.aside.text-left(data-interval='2000' style="width:300px")
+              //-   .carousel-inner
+              //-     .item.p-t-sm.text-primary.active social media
+              //-     .item.p-t-sm.text-primary  Facebook
+              //-     .item.p-t-sm.text-primary  Twitter
+              //-     .item.p-t-sm.text-primary  Instagram
+
+        .m-t-xl.m-b-xl
+          a.btn.btn-lg.text-uc.btn-dark.m-t-xl.m-b-xl(href="signup") Start your campaign
+
+  .container
+    .text-center.wrapper
+      h2.text-left Publish your content on multiple channels
+      h4.text-left That’s what makes influencers influential – their ability to amplify stories, images, and ideas. They share and distribute, turning quality posts into enthusiastic streams of tweets, likes, shares, clicks, pins and more!
+      .row.m-t-xl.m-b-xl.text-center
+        .col-sm-4.fadeInLeft.animated(data-ride='animated', data-animation='fadeInLeft', data-delay='300')
+          p.h3.m-b-lg
+            i.fa.fa-cogs.fa-3x.text-info
+            h4.m-t-none Scale Your Distribution
+            p.text-muted.m-t-lg
+              | Amplify the reach of your content as influencers and their built-in followings share your content to a collective audience of millions.
+        .col-sm-4.fadeInLeft.animated(data-ride='animated', data-animation='fadeInLeft', data-delay='600')
+          p.h3.m-b-lg
+            i.fa.fa-share-square-o.fa-3x.text-info
+            h4.m-t-none Auto-share to social media
+            p.text-muted.m-t-lg
+              | Push your content to multiple channels automatically through easy-to-use social media sharing tools.
+        .col-sm-4.fadeInLeft.animated(data-ride='animated', data-animation='fadeInLeft', data-delay='900')
+          p.h3.m-b-lg
+            i.fa.fa-bar-chart-o.fa-3x.text-info
+            h4.m-t-none Monitor content status
+            p.text-muted.m-t-lg
+              | Stay informed when content goes live and follow the engagement: click, likes, comments, shares, retweets, and more.
